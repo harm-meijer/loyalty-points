@@ -1,0 +1,13 @@
+{
+  "destination": {
+    "type": "GoogleCloudPubSub",
+    "projectId": "ct-sales-207211",
+    "topic": "demo-subscription"
+  },
+  "messages": [
+    {
+      "resourceTypeId": "order",
+      "types": ["OrderCreated"]
+    }
+  ]
+}

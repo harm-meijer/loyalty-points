@@ -1,0 +1,12 @@
+{
+  "destination": {
+    "type": "HTTP",
+    "url": "https://nestor-consum-subscription-vikeh6xrjq-ew.a.run.app/extension"
+  },
+  "triggers": [
+    {
+      "resourceTypeId": "cart",
+      "actions": ["Create", "Update"]
+    }
+  ]
+}

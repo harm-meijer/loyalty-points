@@ -1,0 +1,15 @@
+{
+  "key": "customerPoints",
+  "name": { "en": "customer points" },
+  "resourceTypeIds": ["customer"],
+  "fieldDefinitions": [
+    {
+      "type": {
+        "name": "Number"
+      },
+      "name": "points",
+      "label": { "en": "customer points" },
+      "required": false
+    }
+  ]
+}
